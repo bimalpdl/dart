@@ -1,0 +1,9 @@
+import 'dart:io'; 
+/* imports libraries for standard input and output. It's invoked even if we don't explictly define it but 
+   it is added here to illustrate how libraries are imported in dart */
+
+void main() {
+	int a = 10;
+	int b = int.parse("20");
+	print("The sum of $a + $b is ${a+b}");
+}
